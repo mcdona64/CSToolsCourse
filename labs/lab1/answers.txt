@@ -35,47 +35,50 @@ cd ~/cs190lab1
 
 
 # -----------------
-# Task 1 Answer
+rm -r /homes/mcdona64/cs190lab1/human
 # -----------------
 
 
 # -----------------
-# Task 2 Answer
+mkdir /homes/mcdona64/cs190lab1/mouse/sound /homes/mcdona64/cs190lab1/mouse/"famous Mice"
 # -----------------
 
 
 # -----------------
-# Task 3 Answer
-# -----------------
-
-
-
-# ignore
-cd ~/cs190lab1/dog
-
-
-# -----------------
-# Task 4 Answer
+mv -t /homes/mcdona64/cs190lab1/dog/sounds /homes/mcdona64/cs190lab1/cat/sounds/dog*
 # -----------------
 
 
 
 # ignore
-cd ~/cs190lab1/fox/sounds
+# cd ~/cs190lab1/dog
 
 
 # -----------------
-# Task 5 Answer
+mv /homes/mcdona64/cs190lab1/dog/"famous cows" /homes/mcdona64/cs190lab1/dog/"famous dogs" 
 # -----------------
 
 
 
 # ignore
-cd ~/cs190lab1/cat/sounds
+# cd ~/cs190lab1/fox/sounds
 
 
 # -----------------
-# Task 6 Answer
+cp -r /homes/mcdona64/cs190lab1/fox/sounds/"ding ding ding" /homes/mcdona64/cs190lab1/fox/sounds/"ding ding ding ding"
 # -----------------
 
 
+
+# ignore
+# cd ~/cs190lab1/cat/sounds
+
+
+# -----------------
+mv /homes/mcdona64/cs190lab1/cat/sounds/cat* "."
+# -----------------
+
+# I dont have my TA's email and i need to turn in this asignment. 
+# I decided to propose this file change to at least show I have done the asignment.
+# I also made it so that my code will work with out swiching directories.
+# my name is Adam McDonald student numeber 0028235651 1
